@@ -19,6 +19,7 @@ const Home = () => {
         }
         return matches;
     }
+    
 
     function generateResults () {
         let matches = ENTRIES.filter((x) => matchesSearchGrams(x))

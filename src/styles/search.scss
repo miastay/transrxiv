@@ -1,0 +1,18 @@
+.searchbar {
+    width: 65%;
+    padding: 1rem;
+    input {
+        width: 100%;
+        min-height: 5rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 1.5rem;
+        border: none;
+        box-sizing: border-box;
+        font-weight: 400;
+        &::placeholder {
+            font-weight: 300;
+        }
+        box-shadow: 0 0 10px 0 #33333333;
+    }
+}

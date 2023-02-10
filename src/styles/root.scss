@@ -1,0 +1,17 @@
+$background-col: #ffeeee;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: $background-col;
+
+    * {
+        //outline: solid red 1px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+}
